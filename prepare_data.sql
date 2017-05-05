@@ -3,7 +3,7 @@ CREATE OR REPLACE FUNCTION generate_data(entry_count INTEGER)
 RETURNS void AS $$
 BEGIN
 
---Start --
+--Start  --
 DROP TABLE host CASCADE;
 CREATE TABLE host (id VARCHAR(50), name VARCHAR(50), type INTEGER);
 
